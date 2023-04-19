@@ -30,9 +30,9 @@ wp_head();
 			<div class="product_page_close">
 
 				<a href="election#section_2">
-					<img class="cross" src="<?php echo get_template_directory_uri(); ?>/img/cancel-music.png" alt="Close voters ink icon"> </a>
+					<img class="cross" src="<?php echo get_stylesheet_directory_uri(); ?>/img/cancel-music.png" alt="Close voters ink icon"> </a>
 				<a href="election#section_2">
-					<img class="blue-cross" src="<?php echo get_template_directory_uri(); ?>/img/blue-cancel-music.png" alt="Close voters ink icon"> </a>
+					<img class="blue-cross" src="<?php echo get_stylesheet_directory_uri(); ?>/img/blue-cancel-music.png" alt="Close voters ink icon"> </a>
 			</div>
 			<h1> Voters Ink</h1>
 			<h2 id="subHead">

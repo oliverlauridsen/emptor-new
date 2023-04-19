@@ -199,7 +199,7 @@ get_header();
             </p>
                 </div>
 
-            <img src="<?php echo get_template_directory_uri(); ?>/img/logistics.jpg" alt="Emptor International logistics image" class="logistics_image"></div>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logistics.jpg" alt="Emptor International logistics image" class="logistics_image"></div>
         <div class="section_31_tablet_wrapper">
             <div class="section_31_content_tablet">
                 <div class="section_31_text_wrapper">
@@ -223,7 +223,7 @@ get_header();
                                 service</p></div>
                     </div>
                     <p></p></div>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/logistics.jpg" alt="Emptor International logistics image" class="logistics_image"></div>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logistics.jpg" alt="Emptor International logistics image" class="logistics_image"></div>
         </div>
     </section>
     <section id="section_4">
@@ -298,7 +298,7 @@ get_header();
             </div>
         </div>
         <div class="kontakt-formular trading-contact">
-            <form name="kontakt-formular" action="<?php echo get_template_directory_uri(); ?>/page-templates/contactForm.php" method="post" id="form">
+            <form name="kontakt-formular" action="<?php echo get_stylesheet_directory_uri(); ?>/page-templates/contactForm.php" method="post" id="form">
                 <input type="text" name="company" class="feedback-input" placeholder="Company name"/>
                 <input type="text" name="name" class="feedback-input" placeholder="Name"/>
                 <input type="text" name="mail" class="feedback-input" placeholder="Email"/>

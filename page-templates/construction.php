@@ -16,9 +16,9 @@ wp_head();
 		<section class="product_section_2">
 			<div class="product_page_close">
 				<a href="trading#section_2">
-					<img class="cross" src="<?php echo get_template_directory_uri(); ?>/img/cancel-music.png" alt="Close ballot box icon"> </a>
+					<img class="cross" src="<?php echo get_stylesheet_directory_uri(); ?>/img/cancel-music.png" alt="Close ballot box icon"> </a>
 				<a href="trading#section_2">
-					<img class="blue-cross" src="<?php echo get_template_directory_uri(); ?>/img/blue-cancel-music.png" alt="Close ballot box icon"> </a>
+					<img class="blue-cross" src="<?php echo get_stylesheet_directory_uri(); ?>/img/blue-cancel-music.png" alt="Close ballot box icon"> </a>
 			</div>
 			<h1> Construction </h1>
 			<div class="ballot_boxes_text_wrapper">

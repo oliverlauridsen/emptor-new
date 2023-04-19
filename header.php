@@ -33,13 +33,13 @@
 <section id="section_1" style='
     <?php 
         if (is_page_template('page-templates/trading.php')) {
-            echo "background-image: url(" . get_template_directory_uri() . "/img/tradingHeaderImage.png)";
+            echo "background-image: url(" . get_stylesheet_directory_uri() . "/img/tradingHeaderImage.png)";
         } else {
-            echo "background-image: url(" . get_template_directory_uri() . "/img/mobile_hand.jpg)";   
+            echo "background-image: url(" . get_stylesheet_directory_uri() . "/img/mobile_hand.jpg)";   
         }
     ?> 
     '>
-    <div id="content"><img src="<?php echo get_template_directory_uri(); ?>/img/tilbage_til_top_2_sort.png" alt="Emptor back to top" id="up_arrow">
+    <div id="content"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tilbage_til_top_2_sort.png" alt="Emptor back to top" id="up_arrow">
         <nav id="desktop-nav">
             <a href="<?php 
                 if (is_page_template('page-templates/trading.php')) {
@@ -48,7 +48,7 @@
                     echo 'election';
                 }
                 ?>">
-                <img id="logo" src="<?php echo get_template_directory_uri(); ?>/img/Emptor_logo_white.png" alt="Emptor International logo">
+                <img id="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/Emptor_logo_white.png" alt="Emptor International logo">
             </a>
             <div id="header_line"></div>
             <li id="desktop_nav_li">
@@ -112,7 +112,7 @@
     }
     ?>
     ">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/Emptor_logo_black.png" alt="Emptor International logo"></a> 
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Emptor_logo_black.png" alt="Emptor International logo"></a> 
         <a class="1" href="#">OUR PRODUCTS</a> 
         <a class="2" href="#">WHO WE ARE</a> 
         <a class="3" href="#">THE LOGISTICS</a> 

@@ -5,7 +5,7 @@ wp_head();
 <body id="background-color">
 	<div id="loading_main_content">
 		<div id="moving">
-			<img id="logo_choose" src="<?php echo get_template_directory_uri()?>/img/Emptor_logo_white.png" class="fade-in" alt="Logo">
+			<img id="logo_choose" src="<?php echo get_stylesheet_directory_uri()?>/img/Emptor_logo_white.png" class="fade-in" alt="Logo">
 		</div>
 	</div>
 	<div class="choose_main_content">
@@ -15,7 +15,7 @@ wp_head();
 					<div class="choose_collect">
 						<h1 class="choose_headertext"> ELECTION</h1>
 						<div class="choose_underline"></div>
-						<img src="<?php echo get_template_directory_uri()?>/img/dropping-vote-in-box.png" id="election_vote" alt="vote box icon">
+						<img src="<?php echo get_stylesheet_directory_uri()?>/img/dropping-vote-in-box.png" id="election_vote" alt="vote box icon">
 						<p class="choose_bodytext"> Emptor International is specialized in the production and delivery of election materials and related logistical services
 							for elections in developing countries.</p>
 					</div>

@@ -29,9 +29,9 @@ wp_head();
 			<div class="product_page_close">
 
 				<a href="election#section_2">
-					<img class="cross" src="<?php echo get_template_directory_uri(); ?>/img/cancel-music.png" alt="Close voting booth icon"> </a>
+					<img class="cross" src="<?php echo get_stylesheet_directory_uri(); ?>/img/cancel-music.png" alt="Close voting booth icon"> </a>
 				<a href="election#section_2">
-					<img class="blue-cross" src="<?php echo get_template_directory_uri(); ?>/img/blue-cancel-music.png" alt="Close voting booth icon"> </a>
+					<img class="blue-cross" src="<?php echo get_stylesheet_directory_uri(); ?>/img/blue-cancel-music.png" alt="Close voting booth icon"> </a>
 			</div>
 			<h1> Voting booth</h1>
 			<h2 id="subHead">

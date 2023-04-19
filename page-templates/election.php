@@ -33,7 +33,7 @@ get_header();
             </a><a class="a_style" href="voting-booth">
                 <div id="section_2_image_3" class="product_image"></div>
                 <div class="section_2_product_box">
-                    <div class="product_box_text_wrapper"><img src="<?php echo get_template_directory_uri(); ?>/img/logistics.jpg" alt="Voting booth icon">
+                    <div class="product_box_text_wrapper"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logistics.jpg" alt="Voting booth icon">
                         <h1>VOTING BOOTH</h1>
                         <p> Cardboard and plastic voting booth</p></div>
                 </div>
@@ -94,7 +94,7 @@ get_header();
                     </a></div>
                 <div class="section_2_product_wrapper"><a class="a_style" href="voting-booth">
                         <div id="section_2_image_3_tablet" class="product_image_tablet"></div>
-                        <div class="section_2_product_box"><img src="<?php echo get_template_directory_uri(); ?>/img/voting_screen_ikon.png"
+                        <div class="section_2_product_box"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/voting_screen_ikon.png"
                                                                 alt="Voting booth icon">
                             <div class="product_box_text_wrapper"><h1>VOTING BOOTH</h1>
                                 <p> Cardboard and plastic voting booth</p>
@@ -203,7 +203,7 @@ get_header();
                     commercial air freight<br><br> <strong>By sea:<br></strong> full charter / part charter / commercial
                     sea freight<br><br> <strong>Alternatives services:<br></strong> sea/air solution, road transport,
                     courier service<br><br></p></div>
-            <img src="<?php echo get_template_directory_uri(); ?>/img/logistics.jpg" alt="Emptor International logistics image" class="logistics_image"></div>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logistics.jpg" alt="Emptor International logistics image" class="logistics_image"></div>
         <div class="section_31_tablet_wrapper">
             <div class="section_31_content_tablet">
                 <div class="section_31_text_wrapper">
@@ -227,7 +227,7 @@ get_header();
                                 service</p></div>
                     </div>
                     <p></p></div>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/logistics.jpg" alt="Emptor International logistics image" class="logistics_image"></div>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logistics.jpg" alt="Emptor International logistics image" class="logistics_image"></div>
         </div>
     </section>
     <section id="section_4">
@@ -302,7 +302,7 @@ get_header();
             </div>
         </div>
         <div class="kontakt-formular">
-            <form name="kontakt-formular" action="<?php echo get_template_directory_uri(); ?>/page-templates/contactForm.php" method="post" id="form">
+            <form name="kontakt-formular" action="<?php echo get_stylesheet_directory_uri(); ?>/page-templates/contactForm.php" method="post" id="form">
                 <input type="text" name="company" class="feedback-input" placeholder="Company name"/>
                 <input type="text" name="name" class="feedback-input" placeholder="Name"/>
                 <input type="text" name="mail" class="feedback-input" placeholder="Email"/>
