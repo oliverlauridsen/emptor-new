@@ -1,0 +1,45 @@
+# Windows image file caches
+Thumbs.db 
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac OS
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Hidden files and backup files
+.*
+*~
+
+# KDE
+.directory
+
+# Whitelisted files
+!.gitignore
+!.htaccess
+
+# IDE files
+nbproject/
+.idea/
+
+# Cache files
+.sass-cache/
+node_modules
+
+# Settings-files & compiled directories
+/tmp/
+sonar-project.properties
+dev-settings.json
+dist/
+
+
