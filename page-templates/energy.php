@@ -1,7 +1,6 @@
 <?php 
 /* Template Name: Energy */ 
 
-wp_head();
 ?>
 
 <!doctype html>

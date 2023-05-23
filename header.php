@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="Emptor International is specialized in the production and delivery
    of election materials and related logistical services for elections worldwide">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
@@ -10,7 +10,8 @@
     <?php 
     wp_head();
     ?>
-    </head>
+</head>
+
 <body>
 <div class="program-wrapper">
     <div class="header">
@@ -64,13 +65,14 @@
             } else {
                 echo '#76C6E8';
             }
-            ?>"><?php
-                        if (is_page_template('page-templates/trading.php')) {
+            ?>">
+            <?php
+            if (is_page_template('page-templates/trading.php')) {
                 echo 'TRADING ';
             } else {
                 echo 'ELECTION ';
             } ?>
-        & SHIPPING</span><br> MADE EASY</h1>
+            & SHIPPING</span><br> MADE EASY</h1>
         </nav>
         <h1 id="trademark"> EMPTOR INT.<br> <span id="trademark_span" style="color:<?php
         if (is_page_template('page-templates/trading.php')) {

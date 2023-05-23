@@ -1,7 +1,5 @@
 <?php 
 /* Template Name: Extraz */ 
-
-wp_head();
 ?>
 
 <!doctype html>

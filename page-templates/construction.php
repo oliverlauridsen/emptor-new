@@ -1,7 +1,6 @@
 <?php 
 /* Template Name: Construction */ 
 
-wp_head();
 ?>
 
 <!doctype html>

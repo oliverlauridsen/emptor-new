@@ -1,5 +1,5 @@
 <?php 
-wp_head();
+
 /* Template Name: Ballot Boxes */ 
 
 ?>

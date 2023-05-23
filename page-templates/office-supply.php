@@ -1,7 +1,5 @@
 <?php 
 /* Template Name: Office Supply */ 
-
-wp_head();
 ?>
 
 <!doctype html>

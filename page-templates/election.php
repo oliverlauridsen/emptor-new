@@ -1,6 +1,5 @@
 <?php 
 /* Template Name: Election */ 
-wp_head();
 get_header();
 
 ?>
@@ -33,9 +32,10 @@ get_header();
             </a><a class="a_style" href="voting-booth">
                 <div id="section_2_image_3" class="product_image"></div>
                 <div class="section_2_product_box">
-                    <div class="product_box_text_wrapper"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logistics.jpg" alt="Voting booth icon">
+                    <div class="product_box_text_wrapper"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/voting_screen_ikon.png" alt="Voting booth icon">
                         <h1>VOTING BOOTH</h1>
-                        <p> Cardboard and plastic voting booth</p></div>
+                        <p> Cardboard and plastic voting booth</p>
+                    </div>
                 </div>
             </a><a class="a_style" href="voters-ink">
                 <div id="section_2_image_4" class="product_image"></div>

@@ -1,1 +1,1 @@
-<footer><p> Copyright Emptor International Ldt. All rights reserved.</p></footer>
+<footer><p> Copyright Emptor International Ldt. <br> All rights reserved.</p></footer>

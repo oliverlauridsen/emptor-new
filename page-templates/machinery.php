@@ -1,7 +1,6 @@
 <?php
 /* Template Name: Machinery */
 
-wp_head();
 ?>
 
 <!doctype html>

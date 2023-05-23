@@ -1,6 +1,5 @@
 <?php 
 /* Template Name: Test */ 
-wp_head();
 ?>
 
 <!doctype html>
@@ -11,7 +10,6 @@ wp_head();
 	<title> Security Seals - Seals in various material, colours, sizes and shapes </title>
 	<meta name="description" content="Emptor International offers our clients well tested models of seals in various materials, colors, sizes and shapes. 
 	Order your election kit now!">
-	<meta name="viewport" content="width=device-width, inital-scale=1.0">
 	<link rel="stylesheet" href="../../build/css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

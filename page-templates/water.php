@@ -1,7 +1,5 @@
 <?php 
 /* Template Name: Water */ 
-
-wp_head();
 ?>
 
 <!doctype html>

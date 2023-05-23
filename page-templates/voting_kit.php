@@ -1,6 +1,5 @@
 <?php 
 /* Template Name: Voting Kit */ 
-wp_head();
 ?>
 
 <body>

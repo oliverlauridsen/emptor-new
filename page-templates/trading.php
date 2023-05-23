@@ -1,6 +1,5 @@
 <?php 
 /* Template Name: Trading */ 
-wp_head();
 get_header();
 ?>
 

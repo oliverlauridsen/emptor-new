@@ -1,6 +1,5 @@
 <?php 
 /* Template Name: Voting Booth */ 
-wp_head();
 ?>
 <!doctype html>
 <html>
@@ -10,7 +9,6 @@ wp_head();
 	<title> Voting booth - Cardboard and plastic voting booth </title>
 	<meta name="description" content="Emptor International offers our clients well tested voting booth. Voting booths secures privacy during the voting process. 
 	Order your election kit now!">
-	<meta name="viewport" content="width=device-width, inital-scale=1.0">
 	<link rel="stylesheet" href="../../build/css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

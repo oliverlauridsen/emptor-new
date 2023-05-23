@@ -1,6 +1,5 @@
 <?php 
 /* Template Name: Miscellaneous */ 
-wp_head();
 ?>
 
 <!doctype html>
@@ -9,7 +8,6 @@ wp_head();
 <head>
 	<meta charset="UTF-8">
 	<title>Miscellaneous - Campaign and promotional materials </title>
-	<meta name="viewport" content="width=device-width, inital-scale=1.0">
 	<meta name="description" content="Emptor International offers campaign and promotional materials to be used during the period of election. 
 	Order your election kit now!">
 	<link rel="stylesheet" href="../../build/css/main.css">
