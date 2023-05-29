@@ -296,7 +296,8 @@ get_header();
                 <div id="headline_blue_underline_4" class="headline_blue_underline orange_underline"></div>
             </div>
         </div>
-        <div class="kontakt-formular trading-contact">
+        <?php echo do_shortcode('[wpforms id="76" title="false"]');?>
+        <!-- <div class="kontakt-formular trading-contact">
             <form name="kontakt-formular" action="<?php echo get_stylesheet_directory_uri(); ?>/page-templates/contactForm.php" method="post" id="form">
                 <input type="text" name="company" class="feedback-input" placeholder="Company name"/>
                 <input type="text" name="name" class="feedback-input" placeholder="Name"/>
@@ -310,7 +311,10 @@ get_header();
                 </textarea> 
                 <input type="submit" name="submit" value="Send" class="send"/>
             </form>
-        </div>
+        </div> -->
         <a class="contact_info_text">Get our <span style="color:#48BB6E">contact information</span> here!</a></section>
+        <script src="https://cdn.popupsmart.com/bundle.js" data-id="78305" async defer></script>
+
+    </body>
+    
     <?php get_footer();?>
-</body>

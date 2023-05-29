@@ -297,12 +297,12 @@ get_header();
     </section>
     <section id="section_5">
         <div id="section_5_scroll" class="headline_center_div">
-            <div class="headlines_wrapper"><h1 id="section_5_headertext"><span style="color:#76C6E8">GET</span> IN TOUCH
-                </h1>
+            <div class="headlines_wrapper"><h1 id="section_5_headertext"><span style="color:#76C6E8">GET</span> IN TOUCH</h1>
                 <div id="headline_blue_underline_4" class="headline_blue_underline"></div>
             </div>
         </div>
-        <div class="kontakt-formular">
+        <?php echo do_shortcode('[wpforms id="59" title="false"]');?>
+        <!-- <div class="kontakt-formular">
             <form name="kontakt-formular" action="<?php echo get_stylesheet_directory_uri(); ?>/page-templates/contactForm.php" method="post" id="form">
                 <input type="text" name="company" class="feedback-input" placeholder="Company name"/>
                 <input type="text" name="name" class="feedback-input" placeholder="Name"/>
@@ -316,7 +316,9 @@ get_header();
                 </textarea> 
                 <input type="submit" name="submit" value="Send" class="send"/>
             </form>
-        </div>
+        </div> -->
         <a class="contact_info_text">Get our <span style="color:#76C6E8">contact information</span> here!</a></section>
-    <?php get_footer();?>
-</body>
+        <script src="https://cdn.popupsmart.com/bundle.js" data-id="78305" async defer></script>
+
+    </body>
+<?php get_footer();?>

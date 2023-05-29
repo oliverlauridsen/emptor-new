@@ -232,25 +232,5 @@
 				1500
 			);
 		});
-
-		/*
-
-    $(function () {
-      "use strict";
-      $("#up_arrow").on({
-        mouseenter: function () {
-          $("#up_arrow").attr("src", "img/tilbage_til_top_2_sort.png");
-        },
-        mouseleave: function () {
-          $("#up_arrow").attr("src", "img/tilbage_til_top_2.png");
-        }
-      });
-    });
-
-    $("#up_arrow").hover(function () {
-      $("#up_arrow").attr("src", "img/tilbage_til_top_2_sort.png");
-    });
-
-*/
 	});
 })(jQuery);
