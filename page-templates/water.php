@@ -1,9 +1,8 @@
 <?php 
 /* Template Name: Water */ 
 ?>
-
-<!doctype html>
-<html>
+<?php wp_head();?>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 <body>
 	<div id="content">
@@ -21,14 +20,11 @@
 			<h1> Water </h1>
 			<div class="ballot_boxes_text_wrapper">
 				<div class="left_product_page_tablet_divider">
-                    <ul class="trading-product-list">
-
-                    Emptor International provides a tailor-made solution on the supply of the following products: <br>
-                    </ul>
+					<br>
+					Emptor International provides a tailor-made solution on the supply of the following products: <br><br>
 				</div>
 				<div class="right_product_page_tablet_divider">
                     <ul class="trading-product-list">
-
                         <li> Pipes and fittings </li>
                         <li> Pumps </li>
                         <li> Valves </li>
@@ -40,7 +36,7 @@
 		</section>
 		<div class="product_footer">
 			<a href="energy">
-				<div class="arrow_right">
+				<div class="arrow_right arrow_trading">
 					<strong>Next</strong>
 					<i class="fa fa-arrow-right" aria-hidden="true"></i>
 				</div>
@@ -48,7 +44,7 @@
 
 		</div>
 
-		<div class="product_page_button">
+		<div class="product_page_button trading_button">
 			<a href="http://graeps.com/Emptor/trading/#section_5">
 				<p>
 					<strong>Request more information</strong>

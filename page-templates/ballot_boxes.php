@@ -3,14 +3,12 @@
 /* Template Name: Ballot Boxes */ 
 
 ?>
-<!doctype html>
-<html>
-
+<?php wp_head();?>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <body>
 	<div id="content">
 		<section class="product_section_1" id="ballot_boxes">
-			<div class="product_black_header">
-			</div>
+			<div class="product_black_header"></div>
 		</section>
 		<section class="product_section_2">
 			<div class="product_page_close">
@@ -19,7 +17,7 @@
 				<a href="election#section_2">
 					<img class="blue-cross" src="<?php echo get_stylesheet_directory_uri(); ?>/img/blue-cancel-music.png" alt="Close ballot box icon"> </a>
 			</div>
-			<h1> <?php get_the_title(); ?> </h1>
+			<h1> <?php echo get_the_title(); ?> </h1>
 			<h2 id="subHead">
 				<strong> Transparent and foldable ballot box<br>
 				</strong>
@@ -94,5 +92,3 @@
 	</div>
 
 </body>
-
-</html>

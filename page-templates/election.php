@@ -44,10 +44,11 @@ get_header();
                         <h1>VOTERS INK</h1>
                         <p> Indelible ink with silver nitrate & UV ink</p></div>
                 </div>
-            </a><a class="a_style" href="security-seals">
+            </a>
+            <a class="a_style" href="security-seals">
                 <div id="section_2_image_5" class="product_image"></div>
                 <div class="section_2_product_box">
-                    <div class="product_box_text_wrapper"><i class="fa fa-shield" aria-hidden="true"></i>
+                    <div class="product_box_text_wrapper"><i class="fas fa-shield-alt"></i>
                         <h1>SECURITY SEAL</h1>
                         <p> Seals in various material, colours, sizes and shapes</p></div>
                 </div>
@@ -115,7 +116,7 @@ get_header();
                     </a></div>
                 <div class="section_2_product_wrapper"><a class="a_style" href="security-seals">
                         <div id="section_2_image_5_tablet" class="product_image_tablet"></div>
-                        <div class="section_2_product_box"><i class="fa fa-shield" aria-hidden="true"></i>
+                        <div class="section_2_product_box"><i class="fas fa-shield-alt"></i>
                             <div class="product_box_text_wrapper"><h1>SECURITY SEAL</h1>
                                 <p> Seals in various material, colours, sizes and shapes</p>
                                 <div class="button"> Read more</div>

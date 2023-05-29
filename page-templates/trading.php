@@ -66,7 +66,7 @@ get_header();
                             <i class="fas fa-tint"></i>
                                 <div class="product_box_text_wrapper"><h1> WATER </h1>
                                     <p> Pipes, pumps, valves etc. </p>
-                                    <div class="button">Read more</div>
+                                    <div class="button trading_button">Read more</div>
                                 </div>
                             </div>
                         </a>
@@ -77,7 +77,7 @@ get_header();
                         <div class="section_2_product_box"><i class="fas fa-bolt"></i>
                             <div class="product_box_text_wrapper"><h1> ENERGY</h1>
                                 <p> Cables, wires, transformers etc.</p>
-                                <div class="button">Read more</div>
+                                <div class="button trading_button">Read more</div>
                             </div>
                         </div>
                     </a></div>
@@ -86,7 +86,7 @@ get_header();
                         <div class="section_2_product_box"><i class="fas fa-gavel"></i>
                             <div class="product_box_text_wrapper"><h1>CONSTRUCTION</h1>
                                 <p>Wood, cement, camp supplies etc. </p>
-                                <div class="button"> Read more</div>
+                                <div class="button trading_button"> Read more</div>
                             </div>
                         </div>
                     </a></div>
@@ -97,7 +97,7 @@ get_header();
                         <div class="section_2_product_box"><i class="fas fa-cogs"></i>
                             <div class="product_box_text_wrapper"><h1> MACHINERY</h1>
                                 <p> Trucks, forklifts, tires etc. </p>
-                                <div class="button">Read more</div>
+                                <div class="button trading_button">Read more</div>
                             </div>
                         </div>
                     </a></div>
@@ -106,7 +106,7 @@ get_header();
                         <div class="section_2_product_box"> <i class="fas fa-pen-alt"></i>
                             <div class="product_box_text_wrapper"><h1>OFFICE SUPPLY</h1>
                                 <p> Stationary, furniture, paper etc. </p>
-                                <div class="button"> Read more</div>
+                                <div class="button trading_button"> Read more</div>
                             </div>
                         </div>
                     </a></div>
@@ -115,7 +115,7 @@ get_header();
                         <div class="section_2_product_box"><i class="fas fa-plus-square"></i>
                             <div class="product_box_text_wrapper"><h1>MISCELLANEOUS</h1>
                                 <p>Fishing gear, home appliances, aid and relief etc.</p>
-                                <div class="button"> Read more</div>
+                                <div class="button trading_button"> Read more</div>
                             </div>
                         </div>
                     </a></div>

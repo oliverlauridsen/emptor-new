@@ -2,10 +2,9 @@
 /* Template Name: Security Seal */ 
 ?>
 
-<!doctype html>
-<html>
-
 <head>
+	<?php wp_head();?>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta charset="UTF-8">
 	<title> Security Seals - Seals in various material, colours, sizes and shapes </title>
 	<meta name="description" content="Emptor International offers our clients well tested models of seals in various materials, colors, sizes and shapes. 
@@ -54,6 +53,7 @@
 				<div class="right_product_page_tablet_divider">
 
 					<p>
+						<br>
 						<strong> Key features </strong>
 						<br> Breaking tested according to ISO standards
 						<br>

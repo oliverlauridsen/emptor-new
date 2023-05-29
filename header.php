@@ -7,9 +7,7 @@
    of election materials and related logistical services for elections worldwide">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
     <title> Emptor international - Election</title>
-    <?php 
-    wp_head();
-    ?>
+    <?php wp_head();?>
 </head>
 
 <body>

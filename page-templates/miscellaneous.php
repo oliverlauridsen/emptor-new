@@ -2,10 +2,10 @@
 /* Template Name: Miscellaneous */ 
 ?>
 
-<!doctype html>
-<html>
-
 <head>
+	<?php wp_head();?>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
 	<meta charset="UTF-8">
 	<title>Miscellaneous - Campaign and promotional materials </title>
 	<meta name="description" content="Emptor International offers campaign and promotional materials to be used during the period of election. 
