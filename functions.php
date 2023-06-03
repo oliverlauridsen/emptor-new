@@ -41,3 +41,21 @@ require_once 'includes/enqueues/frontend/scripts.php';
  */
 require_once 'includes/modules/analytics.php';
 require_once 'includes/modules/helpers.php';
+
+function wpse_173601_enqueue_scripts() {
+    wp_scripts()->add_data( 'jquery', 'group', 1 );
+    wp_scripts()->add_data( 'jquery-core', 'group', 1 );
+    wp_scripts()->add_data( 'jquery-migrate', 'group', 1 );
+}
+add_action( 'wp_enqueue_scripts', 'wpse_173601_enqueue_scripts' );
+
+
+function defer_parsing_of_js ( $url ) {
+    if ( FALSE === strpos( $url, '.js' ) ) return $url;
+
+    if ( strpos( $url, 'recaptcha' ) ) return $url;
+        return "$url' defer ";
+    }
+
+    add_filter( 'clean_url', 'defer_parsing_of_js', 11, 1 );
+    

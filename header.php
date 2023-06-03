@@ -1,8 +1,8 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
     <meta name="description" content="Emptor International is specialized in the production and delivery
    of election materials and related logistical services for elections worldwide">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
@@ -32,7 +32,7 @@
 <section id="section_1" style='
     <?php 
         if (is_page_template('page-templates/trading.php')) {
-            echo "background-image: url(" . get_stylesheet_directory_uri() . "/img/tradingHeaderImage.png)";
+            echo "background-image: url(" . get_stylesheet_directory_uri() . "/img/tradingHeaderImage.jpg)";
         } else {
             echo "background-image: url(" . get_stylesheet_directory_uri() . "/img/mobile_hand.jpg)";   
         }
@@ -103,7 +103,7 @@
         ?> SITE</span><br></a>
     </div>
 </section>
-<div class="desktop-navbar-top">
+<!-- <div class="desktop-navbar-top">
     <div class="top-nav-wrapper"><a href="<?php 
     if (is_page_template('page-templates/trading.php')) {
         echo 'trading';
@@ -119,7 +119,7 @@
         <a class="4"href="#">MEET THE TEAM</a> 
         <a class="5" href="#">GET IN TOUCH</a>
     </div>
-</div>
+</div> -->
 
 <?php 
 if (is_page_template('page-templates/trading.php')) {

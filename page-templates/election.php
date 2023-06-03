@@ -317,7 +317,7 @@ get_header();
                 <input type="submit" name="submit" value="Send" class="send"/>
             </form>
         </div> -->
-        <a class="contact_info_text">Get our <span style="color:#76C6E8">contact information</span> here!</a></section>
+        <a href="#" class="contact_info_text">Get our <span style="color:#76C6E8">contact information</span> here!</a></section>
         <script src="https://cdn.popupsmart.com/bundle.js" data-id="78305" async defer></script>
 
     </body>

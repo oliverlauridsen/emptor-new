@@ -1,12 +1,15 @@
 <?php /* Template Name: Forside */ ?>
-<?php wp_head();?>
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Emptor International is specialized in the production and delivery
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+	<meta name="description" content="Emptor International is specialized in the production and delivery
    of election materials and related logistical services for elections worldwide">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
     <title> Emptor international - Election</title>
+	<?php wp_head();?>
+
 </head>
 
 <body id="background-color">
